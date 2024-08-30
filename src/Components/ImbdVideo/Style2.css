@@ -1,0 +1,27 @@
+.poster img {
+    width: 110px;
+}
+
+.poster h1 {
+    font-size: 16px;
+}
+
+.poster p {
+    font-size: 14px;
+    color: rgb(217, 217, 217);
+}
+
+.reactions {
+    display: flex;
+}
+
+.reactions p {
+    font-size: 13px;
+    color: rgb(217, 217, 217);
+    padding-top: 17px;
+    padding-left: 7px;
+}
+
+.reactions i{
+    color: rgb(161, 159, 159);
+}

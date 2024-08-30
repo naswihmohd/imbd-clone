@@ -1,0 +1,450 @@
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: white;
+}
+
+.nav-bar li {
+    list-style: none;
+}
+
+.nav-bar img {
+    height: 30px;
+}
+
+.nav-bar input {
+    width: 600px;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 30px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+}
+
+.nav-bar button,
+select,
+option {
+    height: 30px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.nav-buttons button:hover{
+    background-color: #333;
+}
+
+.itm{
+    padding-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.drop-elm {
+    width: 600px;
+}
+
+.drop-elm img {
+    width: 80px;
+    height: 110px;
+}
+
+/* Hero- sec */
+
+.link-style {
+    color: white;
+    text-decoration: none;
+}
+
+.link-style:hover {
+    text-decoration: none;
+}
+
+.hero-dis img {
+    width: 120px;
+    border-radius: 9px;
+}
+
+.hero-dis:hover {
+    transform: scale(1.1);
+    transition: .5s;
+    opacity: .7;
+}
+
+
+/* up next */
+
+.up-next img {
+    width: 100px;
+    height: 130px;
+    border-radius: 7px;
+}
+
+.up-next h3 {
+    font-size: 18px;
+}
+
+.up-next p {
+    font-size: 12px;
+    color: #a0a0a0;
+}
+
+.up-next i {
+    color: white;
+    font-size: 30px;
+}
+
+.up-next:hover {
+    opacity: .8;
+
+    i {
+        color: rgb(156, 156, 0);
+    }
+}
+
+/* Featured Today section */
+
+.featured-cards {
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.img-card img {
+    width: 340px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.img-card p {
+    color: rgb(166, 164, 164);
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+.img-card {
+    margin: 20px;
+}
+
+.img-card:hover {
+    transition: .3s;
+    opacity: .6;
+}
+
+/* Celebtrities- section */
+
+.celebrities-sec h4 {
+    padding-left: 10px;
+    border-left: rgb(188, 188, 2) solid 4px;
+    font-size: 23px;
+}
+
+.celebrities-sec i {
+    font-size: 32px;
+}
+
+.celebrities-sec h4:hover {
+    i {
+        color: rgb(188, 188, 2);
+    }
+}
+
+.profiles {
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.pro-card {
+    text-align: center;
+    padding: 20px;
+}
+
+.pro-card:hover {
+    opacity: .7;
+    transition: .1s;
+}
+
+.pro-card img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.pro-card p {
+    font-size: 13px;
+}
+
+.pro-card h1 {
+    font-size: 16px;
+    line-height: 5px;
+}
+
+/* What to watch section */
+/* Top Movies section */
+/* Fan favorites section */
+
+.watch-sec h4 {
+    padding-left: 10px;
+    border-left: rgb(188, 188, 2) solid 4px;
+    font-size: 23px;
+}
+
+.watch-sec i {
+    font-size: 32px;
+}
+
+.watch-sec h4:hover {
+    i {
+        color: rgb(188, 188, 2);
+    }
+}
+
+.watch-sec p {
+    color: rgb(169, 169, 169);
+}
+
+.watch-sec a {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.watch-sec a:hover {
+    text-decoration: underline;
+}
+
+.movie-cards {
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.movie-card {
+    margin: 10px;
+    width: 170px;
+    border-top-right-radius: 30px;
+    background-color: rgb(18, 18, 18);
+    height: 380px;
+}
+
+.movie-card:hover {
+    opacity: .8;
+}
+
+.movie-card img {
+    width: 170px;
+    height: 240px;
+    border-top-right-radius: 30px;
+}
+
+.movie-card h6 {
+    font-size: 15px;
+}
+
+.movie-card p {
+    margin: 2px;
+    font-size: 14px;
+}
+
+.movie-card i {
+    font-size: 16px;
+}
+
+.movie-card .btn-1 {
+    width: 150px;
+    text-align: center;
+    border: none;
+    background-color: rgb(58, 58, 58);
+    border-radius: 15px;
+    font-size: 12px;
+    height: 30px;
+    color: rgb(121, 121, 255);
+}
+
+.movie-card .btn-2 {
+    text-align: center;
+    width: 100px;
+    border: none;
+    border-radius: 15px;
+    font-size: 12px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+
+.movie-card .btn-2:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+.movie-card .btn-1:hover {
+    background-color: rgb(73, 72, 72);
+}
+
+.movie-card h5:hover {
+    text-decoration: underline;
+}
+
+.movie-card .btn-3 {
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+.movie-card .btn-3:hover {
+    background-color: rgb(58, 58, 58);
+}
+
+/* Popular interests section */
+
+.pi-sec h4 {
+    padding-left: 10px;
+    border-left: rgb(188, 188, 2) solid 4px;
+    font-size: 23px;
+}
+
+.pi-sec i {
+    font-size: 32px;
+}
+
+.pi-sec h4:hover {
+    i {
+        color: rgb(188, 188, 2);
+    }
+}
+
+.pop-intrest-cards {
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+
+}
+
+.pop-intrest-card {
+    margin: 7px;
+}
+
+.pop-intrest-card:hover {
+    opacity: .9;
+}
+
+.pop-intrest-card img {
+    width: 265px;
+    height: 147px;
+    border-radius: 10px;
+}
+
+/* Exclusive videos section */
+
+.Ev-sec h4 {
+    padding-left: 10px;
+    border-left: rgb(188, 188, 2) solid 4px;
+    font-size: 23px;
+}
+
+.Ev-sec p {
+    color: rgb(137, 138, 140);
+}
+
+.ev-cards {
+    display: flex;
+    scrollbar-width: none;
+    overflow: scroll;
+}
+
+.ev-card {
+    margin: 10px;
+}
+
+.ev-card:hover {
+    opacity: .7;
+}
+
+.ev-card img {
+    width: 350px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ev-card p {
+    margin: 0;
+}
+
+.ev-card a {
+    text-decoration: none;
+    color: rgb(55, 55, 218);
+}
+
+.save i {
+    font-size: 38px;
+    color: rgb(168, 174, 180);
+}
+
+.save i:hover {
+    color: rgb(103, 103, 103);
+}
+
+/* Footer section */
+
+.footer-sec button {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(154, 154, 0);
+    border: none;
+    border-radius: 5px;
+}
+
+.social-links a {
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+.foot-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foot-card {
+    width: 300px;
+    height: 90px;
+    border: #333 1px solid;
+    margin: 10px;
+    border-radius: 8px;
+}
+
+.foot-card img {
+    width: 70px;
+}
+
+.footer-sec li {
+    list-style: none;
+    padding-left: 40px;
+    font-size: 15px;
+}
+
+.footer-sec li:hover {
+    color: #db8e8e;
+    text-decoration: underline;
+}
+
+.copyright {
+    color: #bab0b0;
+    font-size: 12px;
+}
